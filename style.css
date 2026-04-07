@@ -1,254 +1,331 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bindhu Saahithi | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header class="hero">
-    <nav class="navbar container">
-      <div class="logo">BS</div>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
 
-    <div class="hero-content container">
-      <div class="hero-text">
-        <p class="eyebrow">Data Analyst • Data Science Graduate Student</p>
-        <h1>
-          Bindhu Saahithi <br />
-          <span>Naralashetty Yogendranath</span>
-        </h1>
-        <p class="summary">
-          Data Science graduate student with strong skills in analytics, data visualization,
-          SQL, Python, dashboards, ETL workflows, and cloud-based data solutions.
-        </p>
+html {
+  scroll-behavior: smooth;
+}
 
-        <div class="hero-buttons">
-          <a href="https://github.com/bindhusaahithi" target="_blank" class="btn primary">GitHub</a>
-          <a href="https://www.linkedin.com/in/bindhu-saahithi-naralashetty-yogendranath/" target="_blank" class="btn secondary">LinkedIn</a>
-          <a href="#contact" class="btn secondary">Contact</a>
-        </div>
-      </div>
-    </div>
-  </header>
+body {
+  background: #f5f7fb;
+  color: #222;
+  line-height: 1.6;
+}
 
-  <section id="about" class="section container">
-    <div class="section-heading">
-      <p>ABOUT ME</p>
-      <h2>Building meaningful insights from data</h2>
-    </div>
-    <div class="single-card">
-      <p>
-        I am a Data Science graduate student passionate about data analytics, dashboard
-        development, machine learning, and business insight generation. I enjoy transforming
-        raw data into clear, actionable stories through analysis, visualization, and efficient
-        data workflows.
-      </p>
-    </div>
-  </section>
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
 
-  <section id="skills" class="section container">
-    <div class="section-heading">
-      <p>SKILLS</p>
-      <h2>Technical strengths</h2>
-    </div>
+.hero {
+  background: linear-gradient(135deg, #eef4ff 0%, #f8fbff 55%, #edf7f6 100%);
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 30px;
+}
 
-    <div class="skills-grid">
-      <div class="card">
-        <h3>Programming</h3>
-        <div class="tags">
-          <span>Python</span>
-          <span>SQL</span>
-        </div>
-      </div>
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
 
-      <div class="card">
-        <h3>Libraries</h3>
-        <div class="tags">
-          <span>NumPy</span>
-          <span>Pandas</span>
-          <span>Matplotlib</span>
-          <span>Seaborn</span>
-          <span>Scikit-learn</span>
-        </div>
-      </div>
+.logo {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #2b5876;
+  background: #ffffff;
+  border: 1px solid #dbeafe;
+  border-radius: 12px;
+  padding: 10px 14px;
+  box-shadow: 0 4px 12px rgba(43, 88, 118, 0.08);
+}
 
-      <div class="card">
-        <h3>Analytics & Visualization</h3>
-        <div class="tags">
-          <span>Power BI</span>
-          <span>Tableau</span>
-          <span>Excel</span>
-          <span>EDA</span>
-          <span>KPI Development</span>
-          <span>Dashboard Reporting</span>
-          <span>Data Cleaning</span>
-          <span>Data Transformation</span>
-        </div>
-      </div>
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
 
-      <div class="card">
-        <h3>Machine Learning</h3>
-        <div class="tags">
-          <span>Regression</span>
-          <span>Classification</span>
-          <span>Clustering</span>
-          <span>Predictive Modeling</span>
-          <span>Model Evaluation</span>
-          <span>Hypothesis Testing</span>
-        </div>
-      </div>
+.nav-links a {
+  text-decoration: none;
+  color: #334155;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
 
-      <div class="card">
-        <h3>Cloud & Data Engineering</h3>
-        <div class="tags">
-          <span>AWS</span>
-          <span>Azure</span>
-          <span>S3</span>
-          <span>Glue</span>
-          <span>Athena</span>
-          <span>Redshift</span>
-          <span>ADF</span>
-          <span>ADLS</span>
-          <span>Databricks</span>
-          <span>ETL / ELT</span>
-        </div>
-      </div>
+.nav-links a:hover {
+  color: #2563eb;
+}
 
-      <div class="card">
-        <h3>Tools</h3>
-        <div class="tags">
-          <span>Jupyter</span>
-          <span>VS Code</span>
-          <span>Git</span>
-          <span>GitHub</span>
-          <span>MySQL</span>
-          <span>SQL Server</span>
-          <span>MongoDB</span>
-        </div>
-      </div>
-    </div>
-  </section>
+.hero-content {
+  padding: 35px 0 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 
-  <section id="projects" class="section container">
-    <div class="section-heading">
-      <p>PROJECTS</p>
-      <h2>Featured portfolio work</h2>
-      <div class="section-subtext">
-        Selected work in analytics and visualization.
-      </div>
-    </div>
+.hero-text {
+  max-width: 780px;
+}
 
-    <div class="projects-grid">
-      <div class="project-card">
-        <p class="project-type">Data Analysis</p>
-        <h3>Netflix Analysis</h3>
-        <p>
-          Exploratory data analysis and visual storytelling on Netflix content trends
-          using Python, cleaning, and visualization.
-        </p>
-        <a href="https://bindhusaahithi.github.io/Netflix-Analysis" target="_blank" class="btn primary small-btn">View Portfolio</a>
-      </div>
+.eyebrow {
+  color: #2563eb;
+  font-size: 0.92rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
 
-      <div class="project-card">
-        <p class="project-type">Dashboard Analytics</p>
-        <h3>Sales Analytics</h3>
-        <p>
-          Sales dashboard and business performance insights using Tableau,
-          analytics, and visualization techniques.
-        </p>
-        <a href="https://bindhusaahithi.github.io/Sales-Analytics" target="_blank" class="btn primary small-btn">View Portfolio</a>
-      </div>
-    </div>
-  </section>
+.hero h1 {
+  font-size: 3.4rem;
+  line-height: 1.08;
+  color: #0f172a;
+  margin-bottom: 18px;
+  font-weight: 800;
+}
 
-  <section id="education" class="section container">
-    <div class="section-heading">
-      <p>EDUCATION</p>
-      <h2>Academic background</h2>
-    </div>
+.hero h1 span {
+  color: #334155;
+  font-size: 3rem;
+}
 
-    <div class="two-col-grid">
-      <div class="card">
-        <h3>Master of Science in Data Science</h3>
-        <p>University of Massachusetts Dartmouth</p>
-        <p>Expected Graduation: December 2026</p>
-      </div>
+.summary {
+  font-size: 1.08rem;
+  color: #475569;
+  max-width: 720px;
+  margin: 0 auto;
+}
 
-      <div class="card">
-        <h3>Bachelor of Technology in Electronics & Communications Engineering</h3>
-        <p>Teegala Krishna Reddy Engineering College</p>
-        <p>Hyderabad, India</p>
-      </div>
-    </div>
-  </section>
+.hero-buttons {
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
 
-  <section class="section container">
-    <div class="section-heading">
-      <p>CERTIFICATIONS</p>
-      <h2>Professional credentials</h2>
-    </div>
+.btn {
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 12px 22px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 140px;
+  min-height: 48px;
+  transition: 0.25s ease;
+}
 
-    <div class="two-col-grid">
-      <div class="card">
-        <h3>AWS Certified Data Engineer – Associate</h3>
-        <p>Amazon Web Services</p>
-      </div>
+.btn:hover {
+  transform: translateY(-2px);
+}
 
-      <div class="card">
-        <h3>Azure Data Engineer Associate</h3>
-        <p>Microsoft</p>
-      </div>
-    </div>
-  </section>
+.primary {
+  background: #2563eb;
+  color: white;
+  box-shadow: 0 10px 20px rgba(37, 99, 235, 0.18);
+}
 
-  <section id="contact" class="section container">
-    <div class="section-heading">
-      <p>CONTACT</p>
-      <h2>Let’s connect</h2>
-    </div>
+.secondary {
+  background: white;
+  color: #1e293b;
+  border: 1px solid #d1d5db;
+}
 
-    <div class="contact-grid">
-      <div class="card">
-        <h3>Location</h3>
-        <p>New Bedford, MA</p>
-      </div>
+.small-btn {
+  padding: 10px 16px;
+  font-size: 0.95rem;
+  min-width: 150px;
+}
 
-      <div class="card">
-        <h3>Phone</h3>
-        <p><a href="tel:+15086173979">+1 (508) 617-3979</a></p>
-      </div>
+.section {
+  padding: 80px 0;
+}
 
-      <div class="card">
-        <h3>Email</h3>
-        <p><a href="mailto:bbindhusaahithi@gmail.com">bbindhusaahithi@gmail.com</a></p>
-      </div>
+.section-heading {
+  text-align: center;
+  margin-bottom: 34px;
+}
 
-      <div class="card">
-        <h3>LinkedIn</h3>
-        <p><a href="https://www.linkedin.com/in/bindhu-saahithi-naralashetty-yogendranath/" target="_blank">View LinkedIn Profile</a></p>
-      </div>
+.section-heading p {
+  color: #2563eb;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
 
-      <div class="card contact-wide">
-        <h3>GitHub</h3>
-        <p><a href="https://github.com/bindhusaahithi" target="_blank">github.com/bindhusaahithi</a></p>
-      </div>
-    </div>
-  </section>
+.section-heading h2 {
+  font-size: 2.2rem;
+  color: #0f172a;
+}
 
-  <footer>
-    <div class="container footer-content">
-      <p>© 2026 Bindhu Saahithi Naralashetty Yogendranath</p>
-      <p>Data Analyst • Data Science Graduate Student</p>
-    </div>
-  </footer>
-</body>
-</html>
+.section-subtext {
+  margin-top: 10px;
+  color: #64748b;
+  font-size: 1rem;
+}
+
+.single-card,
+.card,
+.project-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+}
+
+.single-card {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 28px 32px;
+  text-align: center;
+  color: #475569;
+  font-size: 1.02rem;
+}
+
+.skills-grid,
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+}
+
+.two-col-grid,
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.card,
+.project-card {
+  padding: 24px;
+}
+
+.card h3,
+.project-card h3 {
+  margin-bottom: 10px;
+  color: #0f172a;
+  font-size: 1.18rem;
+}
+
+.card p,
+.project-card p {
+  color: #475569;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.tags span {
+  background: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #dbeafe;
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.project-type {
+  color: #2563eb !important;
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.project-card .btn {
+  margin-top: 16px;
+}
+
+.contact-grid a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-grid a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background: #ffffff;
+  border-top: 1px solid #e5e7eb;
+  padding: 28px 0;
+  margin-top: 30px;
+}
+
+.footer-content {
+  text-align: center;
+  color: #64748b;
+}
+
+@media (max-width: 992px) {
+  .skills-grid,
+  .contact-grid,
+  .two-col-grid,
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero h1 {
+    font-size: 2.8rem;
+  }
+
+  .hero h1 span {
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+  }
+
+  .hero-content {
+    padding-top: 28px;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero h1 span {
+    font-size: 1.9rem;
+  }
+
+  .summary {
+    font-size: 1rem;
+  }
+
+  .section {
+    padding: 65px 0;
+  }
+
+  .section-heading h2 {
+    font-size: 1.8rem;
+  }
+
+  .btn {
+    min-width: 130px;
+  }
+}
