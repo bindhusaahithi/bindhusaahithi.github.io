@@ -7,254 +7,260 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero">
-    <nav class="navbar container">
+
+  <header>
+    <div class="container navbar">
       <div class="logo">BS</div>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#education">Education</a></li>
+        <li><a href="#credentials">Credentials</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-    </nav>
-
-    <div class="hero-content container">
-      <div class="hero-text">
-        <p class="eyebrow">Data Analyst • Data Science Graduate Student</p>
-        <h1>
-          Bindhu Saahithi <br />
-          <span>Naralashetty Yogendranath</span>
-        </h1>
-        <p class="summary">
-          Data Science graduate student with strong skills in analytics, data visualization,
-          SQL, Python, dashboards, ETL workflows, and cloud-based data solutions.
-        </p>
-
-        <div class="hero-buttons">
-          <a href="https://github.com/bindhusaahithi" target="_blank" class="btn primary">GitHub</a>
-          <a href="https://www.linkedin.com/in/bindhu-saahithi-naralashetty-yogendranath/" target="_blank" class="btn secondary">LinkedIn</a>
-          <a href="#contact" class="btn secondary">Contact</a>
-        </div>
-      </div>
     </div>
   </header>
 
-  <section id="about" class="section container">
-    <div class="section-heading">
-      <p>ABOUT ME</p>
-      <h2>Building meaningful insights from data</h2>
-    </div>
-    <div class="single-card">
+  <section class="hero">
+    <div class="container">
+      <div class="hero-tag">Data Analyst • Data Science Graduate Student</div>
+      <h1>
+        Bindhu Saahithi <br />
+        Naralashetty Yogendranath
+      </h1>
       <p>
-        I am a Data Science graduate student passionate about data analytics, dashboard
-        development, machine learning, and business insight generation. I enjoy transforming
-        raw data into clear, actionable stories through analysis, visualization, and efficient
-        data workflows.
+        Data Science graduate student with strong skills in analytics, data visualization,
+        SQL, Python, dashboards, ETL workflows, and cloud-based data solutions.
       </p>
-    </div>
-  </section>
-
-  <section id="skills" class="section container">
-    <div class="section-heading">
-      <p>SKILLS</p>
-      <h2>Technical strengths</h2>
-    </div>
-
-    <div class="skills-grid">
-      <div class="card">
-        <h3>Programming</h3>
-        <div class="tags">
-          <span>Python</span>
-          <span>SQL</span>
-        </div>
-      </div>
-
-      <div class="card">
-        <h3>Libraries</h3>
-        <div class="tags">
-          <span>NumPy</span>
-          <span>Pandas</span>
-          <span>Matplotlib</span>
-          <span>Seaborn</span>
-          <span>Scikit-learn</span>
-        </div>
-      </div>
-
-      <div class="card">
-        <h3>Analytics & Visualization</h3>
-        <div class="tags">
-          <span>Power BI</span>
-          <span>Tableau</span>
-          <span>Excel</span>
-          <span>EDA</span>
-          <span>KPI Development</span>
-          <span>Dashboard Reporting</span>
-          <span>Data Cleaning</span>
-          <span>Data Transformation</span>
-        </div>
-      </div>
-
-      <div class="card">
-        <h3>Machine Learning</h3>
-        <div class="tags">
-          <span>Regression</span>
-          <span>Classification</span>
-          <span>Clustering</span>
-          <span>Predictive Modeling</span>
-          <span>Model Evaluation</span>
-          <span>Hypothesis Testing</span>
-        </div>
-      </div>
-
-      <div class="card">
-        <h3>Cloud & Data Engineering</h3>
-        <div class="tags">
-          <span>AWS</span>
-          <span>Azure</span>
-          <span>S3</span>
-          <span>Glue</span>
-          <span>Athena</span>
-          <span>Redshift</span>
-          <span>ADF</span>
-          <span>ADLS</span>
-          <span>Databricks</span>
-          <span>ETL / ELT</span>
-        </div>
-      </div>
-
-      <div class="card">
-        <h3>Tools</h3>
-        <div class="tags">
-          <span>Jupyter</span>
-          <span>VS Code</span>
-          <span>Git</span>
-          <span>GitHub</span>
-          <span>MySQL</span>
-          <span>SQL Server</span>
-          <span>MongoDB</span>
-        </div>
+      <div class="hero-buttons">
+        <a href="https://github.com/bindhusaahithi" target="_blank" class="btn btn-primary">GitHub</a>
+        <a href="https://www.linkedin.com/" target="_blank" class="btn btn-outline">LinkedIn</a>
+        <a href="#contact" class="btn btn-outline">Contact</a>
       </div>
     </div>
   </section>
 
-  <section id="projects" class="section container">
-    <div class="section-heading">
-      <p>PROJECTS</p>
-      <h2>Featured portfolio work</h2>
-      <div class="section-subtext">Selected work in analytics and visualization.</div>
-    </div>
-
-    <div class="projects-grid">
-      <div class="project-card">
-        <p class="project-type">Data Analysis</p>
-        <h3>Netflix Analysis</h3>
+  <section id="about">
+    <div class="container">
+      <div class="section-tag">About Me</div>
+      <h2 class="section-title">Building meaningful insights from data</h2>
+      <p class="section-subtitle">
+        I am a Data Science graduate student passionate about data analysis, dashboard development,
+        machine learning, and business insight generation.
+      </p>
+      <div class="about-box">
         <p>
-          Exploratory data analysis and visual storytelling on Netflix content trends
-          using Python, cleaning, and visualization.
-        </p>
-        <a href="https://bindhusaahithi.github.io/Netflix-Analysis" target="_blank" class="btn primary small-btn">
-          View Portfolio
-        </a>
-      </div>
-
-      <div class="project-card">
-        <p class="project-type">Dashboard Analytics</p>
-        <h3>Sales Analytics</h3>
-        <p>
-          Sales dashboard and business performance insights using Tableau,
-          analytics, and visualization techniques.
-        </p>
-        <a href="https://bindhusaahithi.github.io/Sales-Analytics" target="_blank" class="btn primary small-btn">
-          View Portfolio
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <section id="education" class="section container">
-    <div class="section-heading">
-      <p>EDUCATION</p>
-      <h2>Academic background</h2>
-    </div>
-
-    <div class="two-col-grid">
-      <div class="card">
-        <h3>Master of Science in Data Science</h3>
-        <p>University of Massachusetts Dartmouth</p>
-        <p>Expected Graduation: December 2026</p>
-      </div>
-
-      <div class="card">
-        <h3>Bachelor of Technology in Electronics & Communications Engineering</h3>
-        <p>Teegala Krishna Reddy Engineering College</p>
-        <p>Hyderabad, India</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="section container">
-    <div class="section-heading">
-      <p>CERTIFICATIONS</p>
-      <h2>Professional credentials</h2>
-    </div>
-
-    <div class="two-col-grid">
-      <div class="card">
-        <h3>AWS Certified Data Engineer – Associate</h3>
-        <p>Amazon Web Services</p>
-      </div>
-
-      <div class="card">
-        <h3>Azure Data Engineer Associate</h3>
-        <p>Microsoft</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact" class="section container">
-    <div class="section-heading">
-      <p>CONTACT</p>
-      <h2>Let’s connect</h2>
-    </div>
-
-    <div class="contact-grid">
-      <div class="card">
-        <h3>Location</h3>
-        <p>New Bedford, MA</p>
-      </div>
-
-      <div class="card">
-        <h3>Phone</h3>
-        <p><a href="tel:+15086173979">+1 (508) 617-3979</a></p>
-      </div>
-
-      <div class="card">
-        <h3>Email</h3>
-        <p><a href="mailto:bbindhusaahithi@gmail.com">bbindhusaahithi@gmail.com</a></p>
-      </div>
-
-      <div class="card">
-        <h3>LinkedIn</h3>
-        <p>
-          <a href="https://www.linkedin.com/in/bindhu-saahithi-naralashetty-yogendranath/" target="_blank">
-            View LinkedIn Profile
-          </a>
+          My work focuses on transforming raw data into clear, actionable insights through
+          analytics, visualization, and efficient workflows. I enjoy solving business problems
+          using SQL, Python, cloud tools, and interactive dashboards that support smarter decisions.
         </p>
       </div>
+    </div>
+  </section>
 
-      <div class="card">
-        <h3>GitHub</h3>
-        <p><a href="https://github.com/bindhusaahithi" target="_blank">github.com/bindhusaahithi</a></p>
+  <section id="skills">
+    <div class="container">
+      <div class="section-tag">Skills</div>
+      <h2 class="section-title">Technical strengths</h2>
+      <p class="section-subtitle">
+        A blend of programming, analytics, machine learning, data engineering, and visualization tools.
+      </p>
+
+      <div class="grid-2">
+        <div class="card skill-card">
+          <h4>Programming</h4>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">SQL</span>
+            <span class="tag">R</span>
+          </div>
+        </div>
+
+        <div class="card skill-card">
+          <h4>Libraries</h4>
+          <div class="tags">
+            <span class="tag">NumPy</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">Matplotlib</span>
+            <span class="tag">Seaborn</span>
+            <span class="tag">Scikit-learn</span>
+          </div>
+        </div>
+
+        <div class="card skill-card">
+          <h4>Analytics & Visualization</h4>
+          <div class="tags">
+            <span class="tag">Power BI</span>
+            <span class="tag">Tableau</span>
+            <span class="tag">EDA</span>
+            <span class="tag">KPI Development</span>
+            <span class="tag">Dashboard Reporting</span>
+            <span class="tag">Data Cleaning</span>
+            <span class="tag">Data Transformation</span>
+          </div>
+        </div>
+
+        <div class="card skill-card">
+          <h4>Machine Learning</h4>
+          <div class="tags">
+            <span class="tag">Regression</span>
+            <span class="tag">Classification</span>
+            <span class="tag">Clustering</span>
+            <span class="tag">Predictive Modeling</span>
+            <span class="tag">Model Evaluation</span>
+            <span class="tag">Hypothesis Testing</span>
+          </div>
+        </div>
+
+        <div class="card skill-card">
+          <h4>Cloud & Data Engineering</h4>
+          <div class="tags">
+            <span class="tag">AWS</span>
+            <span class="tag">Azure</span>
+            <span class="tag">S3</span>
+            <span class="tag">Glue</span>
+            <span class="tag">Athena</span>
+            <span class="tag">Redshift</span>
+            <span class="tag">ADF</span>
+            <span class="tag">ADLS</span>
+            <span class="tag">Databricks</span>
+            <span class="tag">ETL / ELT</span>
+          </div>
+        </div>
+
+        <div class="card skill-card">
+          <h4>Tools</h4>
+          <div class="tags">
+            <span class="tag">Jupyter</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">SQL Server</span>
+            <span class="tag">MongoDB</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <div class="section-tag">Projects</div>
+      <h2 class="section-title">Featured portfolio work</h2>
+      <p class="section-subtitle">
+        Selected work in analytics, dashboards, and data storytelling.
+      </p>
+
+      <div class="grid-2">
+        <div class="card project-card">
+          <div class="project-type">Data Analysis</div>
+          <h3>Netflix Analysis</h3>
+          <p>
+            Exploratory data analysis and visual storytelling on Netflix content trends
+            using Python, data cleaning, and visualization techniques.
+          </p>
+          <a href="https://bindhusaahithi.github.io/Netflix-Analysis/" target="_blank" class="btn btn-primary">View Portfolio</a>
+        </div>
+
+        <div class="card project-card">
+          <div class="project-type">Dashboard Analytics</div>
+          <h3>Sales Analytics</h3>
+          <p>
+            Sales dashboard and business performance insights using Tableau, analytics,
+            and visualization techniques to support data-driven decisions.
+          </p>
+          <a href="https://github.com/bindhusaahithi/Sales-Analytics" target="_blank" class="btn btn-primary">View Portfolio</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="container">
+      <div class="section-tag">Education</div>
+      <h2 class="section-title">Academic background</h2>
+      <p class="section-subtitle">
+        My academic journey in data science and engineering.
+      </p>
+
+      <div class="grid-2">
+        <div class="card info-card">
+          <h4>Master of Science in Data Science</h4>
+          <div class="sub">University of Massachusetts Dartmouth</div>
+          <div class="muted">Expected Graduation: December 2026</div>
+        </div>
+
+        <div class="card info-card">
+          <h4>Bachelor of Technology in Electronics & Communications Engineering</h4>
+          <div class="sub">Teegala Krishna Reddy Engineering College</div>
+          <div class="muted">Hyderabad, India</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="credentials">
+    <div class="container">
+      <div class="section-tag">Certifications</div>
+      <h2 class="section-title">Professional credentials</h2>
+      <p class="section-subtitle">
+        Certifications that strengthen my skills in cloud and data engineering.
+      </p>
+
+      <div class="grid-2">
+        <div class="card info-card">
+          <h4>AWS Certified Data Engineer – Associate</h4>
+          <div class="muted">Amazon Web Services</div>
+        </div>
+
+        <div class="card info-card">
+          <h4>Azure Data Engineer Associate</h4>
+          <div class="muted">Microsoft</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="section-tag">Contact</div>
+      <h2 class="section-title">Let’s connect</h2>
+      <p class="section-subtitle">
+        Open to opportunities in data analytics, data science, and business intelligence.
+      </p>
+
+      <div class="grid-2">
+        <div class="card contact-card">
+          <h4>Email</h4>
+          <a href="mailto:bbindhusaahithi@gmail.com">bbindhusaahithi@gmail.com</a>
+        </div>
+
+        <div class="card contact-card">
+          <h4>Phone</h4>
+          <a href="tel:+15086173979">+1 (508) 617-3979</a>
+        </div>
+
+        <div class="card contact-card">
+          <h4>LinkedIn</h4>
+          <a href="https://www.linkedin.com/" target="_blank">View LinkedIn Profile</a>
+        </div>
+
+        <div class="card contact-card">
+          <h4>GitHub</h4>
+          <a href="https://github.com/bindhusaahithi" target="_blank">github.com/bindhusaahithi</a>
+        </div>
       </div>
     </div>
   </section>
 
   <footer>
-    <div class="container footer-content">
+    <div class="container">
       <p>© 2026 Bindhu Saahithi Naralashetty Yogendranath</p>
       <p>Data Analyst • Data Science Graduate Student</p>
     </div>
   </footer>
+
 </body>
 </html>
