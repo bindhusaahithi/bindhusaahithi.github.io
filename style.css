@@ -457,6 +457,56 @@ a {
   color: var(--muted);
 }
 
+.uk-section {
+  background:
+    linear-gradient(135deg, rgba(16, 42, 67, 0.96), rgba(47, 102, 245, 0.86)),
+    var(--navy);
+  color: #ffffff;
+  padding: 70px 0;
+}
+
+.uk-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.84fr) minmax(360px, 1.16fr);
+  gap: 42px;
+  align-items: start;
+}
+
+.uk-grid .eyebrow,
+.uk-grid p {
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.uk-grid h2 {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1.04;
+  margin-bottom: 16px;
+}
+
+.uk-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.uk-card-grid article {
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+}
+
+.uk-card-grid strong {
+  display: block;
+  font-size: 1.04rem;
+  margin-bottom: 8px;
+}
+
+.uk-card-grid span {
+  color: rgba(255, 255, 255, 0.76);
+  display: block;
+}
+
 .section-pad {
   padding: 90px 0;
 }
@@ -1035,6 +1085,7 @@ a {
   .section-heading.split,
   .credential-grid,
   .recruiter-grid,
+  .uk-grid,
   .contact-panel {
     grid-template-columns: 1fr;
   }
@@ -1042,6 +1093,7 @@ a {
   .project-grid,
   .skills-grid,
   .fit-grid,
+  .uk-card-grid,
   .proof-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1091,6 +1143,7 @@ a {
   .skills-grid,
   .fit-grid,
   .checklist,
+  .uk-card-grid,
   .resume-header,
   .resume-skill-grid,
   .resume-two-col,

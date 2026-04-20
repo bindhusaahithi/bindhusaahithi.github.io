@@ -1,0 +1,138 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 3263 >>
+stream
+BT
+/F1 10 Tf
+50 770 Td
+14 TL
+(Bindhu Saahithi Naralashetty Yogendranath) Tj
+T*
+(Data Analyst / BI Developer / Junior Data Engineer) Tj
+T*
+(New Bedford, MA | +1 \(508\) 617-3979 | bbindhusaahithi@gmail.com) Tj
+T*
+(LinkedIn: linkedin.com/in/bindhu-saahithi-naralashetty-yogendranath/) Tj
+T*
+(GitHub: github.com/bindhusaahithi | Portfolio: bindhusaahithi.github.io) Tj
+T*
+(Open to UK data analyst, BI analyst, reporting analyst, and junior data engineering interviews.) Tj
+T*
+() Tj
+T*
+/F1 11 Tf
+(PROFESSIONAL SUMMARY) Tj
+/F1 10 Tf
+T*
+(Data analyst and data engineering candidate with experience across SQL/Python ETL pipelines,) Tj
+T*
+(cloud data lake workflows, Power BI/Tableau dashboards, statistical analysis, and ML evaluation.) Tj
+T*
+(Dual certified across AWS and Azure data engineering.) Tj
+T*
+() Tj
+T*
+/F1 11 Tf
+(TECHNICAL SKILLS) Tj
+/F1 10 Tf
+T*
+(Languages: Python, SQL, R) Tj
+T*
+(Analytics: EDA, KPI development, data cleaning, data transformation, hypothesis testing) Tj
+T*
+(BI: Power BI, Tableau, Excel pivot tables, VLOOKUP, Power Query, dashboard reporting) Tj
+T*
+(Cloud/Data Engineering: AWS S3, Glue, Athena, Redshift, Azure Data Factory, ADLS, Databricks, ETL/ELT, Parquet) Tj
+T*
+(ML: Regression, classification, clustering, CNNs, AUC, F1, precision, recall) Tj
+T*
+(Databases/Tools: MySQL, SQL Server, MongoDB, Redshift, Jupyter, VS Code, Git, GitHub, Bitbucket) Tj
+T*
+() Tj
+T*
+/F1 11 Tf
+(EXPERIENCE) Tj
+/F1 10 Tf
+T*
+(Graduate Assistant - Business Analytics | UMass Dartmouth | Jan 2026 - May 2026) Tj
+T*
+(- Automated weekly and monthly reporting in Python and SQL, reducing faculty reporting time by 40%.) Tj
+T*
+(- Deployed Power BI and Tableau dashboards tracking 10+ KPIs across enrollment, retention, and operations.) Tj
+T*
+(- Analysed 15K+ student records to identify enrollment drop-off patterns and support advising decisions.) Tj
+T*
+(- Delivered reproducible hypothesis testing and regression modelling for two faculty research projects.) Tj
+T*
+() Tj
+T*
+(Data Analytics & Engineering Intern | Anblicks & Tredence Analytics | May 2023 - Sep 2023) Tj
+T*
+(- Engineered Python and SQL ETL pipelines connecting five source systems to Azure Data Lake.) Tj
+T*
+(- Refactored transformation logic to stabilise jobs that previously failed mid-run.) Tj
+T*
+(- Implemented validation and schema checks for nulls, type mismatches, and duplicate data.) Tj
+T*
+(- Built four Power BI dashboards for retail KPIs, reducing weekly spreadsheet compilation time by about 25%.) Tj
+T*
+() Tj
+T*
+/F1 11 Tf
+(PROJECT PORTFOLIOS) Tj
+/F1 10 Tf
+T*
+(Netflix Analysis: bindhusaahithi.github.io/Netflix-Analysis/) Tj
+T*
+(Sales Analytics: bindhusaahithi.github.io/Sales-Analytics/) Tj
+T*
+(Lung Cancer Detection: bindhusaahithi.github.io/Lung-cancer-detection/) Tj
+T*
+(Customer Segmentation & CLV Prediction: bindhusaahithi.github.io/Customer-Segmentation-Customer-Lifetime-Value-Prediction/) Tj
+T*
+() Tj
+T*
+/F1 11 Tf
+(EDUCATION) Tj
+/F1 10 Tf
+T*
+(M.S. in Data Science | University of Massachusetts Dartmouth | Expected Dec 2026) Tj
+T*
+(B.Tech in Electronics & Communications Engineering | Teegala Krishna Reddy Engineering College | 2024) Tj
+T*
+() Tj
+T*
+/F1 11 Tf
+(CERTIFICATIONS) Tj
+/F1 10 Tf
+T*
+(AWS Certified Data Engineer - Associate | Azure Data Engineer Associate) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000247 00000 n 
+0000000317 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+3632
+%%EOF
