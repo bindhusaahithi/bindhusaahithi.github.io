@@ -194,9 +194,28 @@ a {
 .hero-card {
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.92);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(248, 251, 255, 0.96));
   box-shadow: var(--shadow);
   padding: 30px;
+}
+
+.profile-card-top {
+  display: grid;
+  grid-template-columns: 54px minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.profile-mark {
+  display: grid;
+  width: 54px;
+  height: 54px;
+  place-items: center;
+  border-radius: 8px;
+  background: var(--navy);
+  color: #ffffff;
+  font-weight: 800;
 }
 
 .card-label {
@@ -210,23 +229,52 @@ a {
 
 .hero-card h2 {
   color: var(--navy);
-  font-size: 2rem;
-  line-height: 1.12;
-  margin-bottom: 24px;
+  font-size: 1.55rem;
+  line-height: 1.16;
 }
 
-.hero-stack {
+.hero-snapshot {
   display: grid;
-  gap: 10px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 26px 0 20px;
 }
 
-.hero-stack span {
+.hero-snapshot div {
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: #f8fbff;
-  color: var(--ink);
+  background: #ffffff;
+  padding: 16px;
+}
+
+.hero-snapshot strong {
+  display: block;
+  color: var(--blue);
+  font-size: 2.1rem;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.hero-snapshot span {
+  color: var(--muted);
+  display: block;
+  font-size: 0.88rem;
   font-weight: 700;
-  padding: 12px 14px;
+}
+
+.tool-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tool-cloud span {
+  border-radius: 8px;
+  background: #eef3ff;
+  color: var(--blue-dark);
+  font-size: 0.84rem;
+  font-weight: 800;
+  padding: 8px 10px;
 }
 
 .impact {
